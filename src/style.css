@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: baloo-bhajaan;
+  src: url(/baloo-bhajaan.ttf);
+}
+:root {
+  --main-color-500: 78, 212, 177;
+  --a: rgb(78, 212, 177);
+}
+
+body {
+  @apply bg-main-800 text-white;
+  font-family: "baloo-bhajaan";
+}
+
+p {
+  @apply mb-3 text-base md:text-xl;
+}
+.highlight {
+  @apply relative z-10;
+}
+
+.highlight::after {
+  content: "";
+  @apply absolute left-0 bottom-0 h-2 w-full bg-green-400 bg-opacity-60 -z-10;
+  transition: all 0.3s;
+}
+
+.highlight:hover::after {
+  @apply h-full;
+}
+
+.trans-enter-from {
+  transform: translateX(-100%) scale(1.1);
+}
+
+.trans-leave-to {
+  transform: translateX(0) scale(1);
+}
+
+.trans-enter-active,
+.trans-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+
+.opacity-leave-active {
+  transition: opacity 0.4s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.opacity-enter-from,
+.opacity-leave-to {
+  opacity: 0;
+}

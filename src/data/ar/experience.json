@@ -1,0 +1,70 @@
+{
+  "name": "الخبرات",
+  "direction": "rtl",
+  "content": [
+    {
+      "title": "البرمجة (backend)",
+      "content": [
+        {
+          "title": "php",
+          "year": "5+",
+          "description": "خبرة عميقة جدا",
+          "progress": 95
+        },
+        {
+          "title": "Laravel",
+          "year": "3+",
+          "description": "خبرة عميقة",
+          "progress": 85
+        },
+        {
+          "title": "Javascript",
+          "year": "2.5+",
+          "description": "خبرة جيدة جدا",
+          "progress": 68
+        },
+        {
+          "title": "Nodejs",
+          "year": "2+",
+          "description": "قيد التطوير...",
+          "progress": 50
+        },
+        {
+          "title": "Express.js",
+          "year": "1+",
+          "description": "اجيد التعامل معه",
+          "progress": 45
+        }
+      ]
+    },
+    {
+      "title": "التصميم (Frontend)",
+      "content": [
+        {
+          "title": "Vue.js",
+          "year": "3+",
+          "description": "خبير",
+          "progress": 90
+        },
+        {
+          "title": "Html & Css",
+          "year": "1+",
+          "description": "خبير",
+          "progress": 45
+        },
+        {
+          "title": "TailwindCSS",
+          "year": "1+",
+          "description": "خبير",
+          "progress": 45
+        },
+        {
+          "title": "TailwindCSS",
+          "year": "1+",
+          "description": "خبير",
+          "progress": 45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Home Page",
+  "slug": "/",
+  "direction": "ltr",
+  "content": "<h1>Hello👋</h1><h3>My name is <span class=\"text-highlight\">Hothaifa</span> Jaber.</h3><p>I am a Full Stack web developer.</p><p>I have enough experience in planning and developing projects to take them to the next level.</p><p>I can work with <a href=\"https://laravel.com/\" target=\"_blank\" class=\"highlight\">Laravel</a> and modern web technologies to create powerful and scalable projects.</p><p>I am proficient in working with databases and Linux servers.</p><br /><p>You can contact me via <a href=\"https://t.me/i74ifa\" target=\"_blank\" class=\"highlight\">Telegram📩</a> and follow me on <a href=\"https://twitter.com/i74ifa\" target=\"_blank\" class=\"highlight\">Twitter🐦</a>. I usually share about Laravel and Vue.js, and web development in general.<br />If you have time, you can check out my profile on <a href=\"https://github.com/i74ifa\" target=\"_blank\" class=\"highlight\">GitHub🚀</a>.</p><br /><p>Apart from programming, I enjoy playing video games, football, watching anime, and peace ✨</p>"
+}
