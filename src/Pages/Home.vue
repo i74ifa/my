@@ -22,7 +22,7 @@ export default {
     async getContent() {
       this.isLoading = true;
 
-      const response = await fetch(`/src/data/${this.lang}/home.json`);
+      const response = await fetch(`/data/${this.lang}/home.json`);
       const data = await response.json();
       this.data = data;
       this.content = data.content;
