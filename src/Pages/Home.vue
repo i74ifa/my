@@ -1,39 +1,28 @@
 <script>
+import { usePage } from "../helpers";
 export default {
   data() {
     return {
       isLoading: false,
-      lang: "en",
       content: "",
-      direction: "ltr",
       data: {},
     };
   },
-  async created() {
-    let lang = this.$route.params.lang;
-    if (lang) {
-      this.lang = lang;
-    }
-    await this.getContent();
-    this.setMeta();
+  computed: {
+    lang() {
+      return this.$route.params.lang;
+    },
   },
-  mounted() {},
+  created() {
+    this.getContent();
+  },
+  async mounted() {},
   methods: {
     async getContent() {
       this.isLoading = true;
-
-      const response = await fetch(`/data/${this.lang}/home.json`);
-      const data = await response.json();
-      this.data = data;
-      this.content = data.content;
-      this.direction = data.direction;
+      this.content = await usePage(this.lang + "/home");
       this.isLoading = false;
       // return data;
-    },
-    setMeta() {
-      const html = document.querySelector("html");
-      html.setAttribute("lang", this.lang);
-      html.setAttribute("dir", this.direction);
     },
   },
 };
@@ -69,7 +58,7 @@ export default {
         class="mb-2 mt-4 md:mt-6 lg:mt-8 animate-pulse bg-gray-800 h-4 rounded"
       ></p>
     </div>
-    <div v-else v-html="content"></div>
+    <div v-else v-html="content" class="prose prose-invert"></div>
   </div>
 </template>
 

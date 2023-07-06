@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp -r src/markdown dist/assets",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.14",
     "@tailwindcss/typography": "^0.5.9",
+    "marked": "^5.1.0",
     "vue": "^3.2.45",
-    "vue-i18n": "^8.28.2",
+    "vue-i18n": "^9.2.2",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {

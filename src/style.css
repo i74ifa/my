@@ -14,6 +14,24 @@
 body {
   @apply bg-main-800 text-white;
   font-family: "baloo-bhajaan";
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.119);
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 120px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 212, 212, 0.669);
 }
 
 p {

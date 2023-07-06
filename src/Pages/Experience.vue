@@ -16,7 +16,7 @@ export default {
               {
                 title: "php",
                 year: "5+",
-                description: "خبرة عميقة جدا",
+                description: "خبرة عميقة",
                 progress: 95,
               },
               {
@@ -66,12 +66,6 @@ export default {
                 description: "خبير",
                 progress: 45,
               },
-              {
-                title: "TailwindCSS",
-                year: "1+",
-                description: "خبير",
-                progress: 45,
-              },
             ],
           },
         ],
@@ -82,18 +76,18 @@ export default {
               {
                 title: "php",
                 year: "experience 5+",
-                description: "Very deep experience",
-                progress: 95,
+                description: "deep experience",
+                progress: 80,
               },
               {
                 title: "Laravel",
                 year: "experience 3+",
                 description: "Deep experience",
-                progress: 85,
+                progress: 75,
               },
               {
                 title: "Javascript",
-                year: "2.experience 5+",
+                year: "experience 5+",
                 description: "Very good experience",
                 progress: 68,
               },
@@ -122,12 +116,6 @@ export default {
               },
               {
                 title: "Html & Css",
-                year: "1+",
-                description: "Expert",
-                progress: 45,
-              },
-              {
-                title: "TailwindCSS",
                 year: "1+",
                 description: "Expert",
                 progress: 45,
