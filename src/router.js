@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./Pages/Home.vue";
 import Experience from "./Pages/Experience.vue";
 import Projects from "./Pages/Projects.vue";
+import Edit from "./Pages/Edit.vue";
 
 let locale = navigator.language.split("-")[0] || "en";
 //validate
@@ -37,6 +38,15 @@ const routes = [
     meta: {
       title: "Projects ",
       description: "المشاريع السابقة",
+    },
+  },
+  {
+    path: "/edit",
+    name: "edit",
+    component: Edit,
+    meta: {
+      title: "Edit",
+      description: "Edit",
     },
   },
 ];

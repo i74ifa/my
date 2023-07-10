@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.14",
+    "@pqina/pintura": "^8.60.12",
+    "@pqina/vue-pintura": "^9.0.1",
     "@tailwindcss/typography": "^0.5.9",
     "marked": "^5.1.0",
     "vue": "^3.2.45",
